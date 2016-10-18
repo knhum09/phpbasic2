@@ -20,6 +20,12 @@ and open the template in the editor.
                 echo 'key :'.$key.' / '.$value.'<br>';
                 
             }
+            echo '<hr>';
+            $array2=['aaa','bbb','ccc'];
+            $c_ar=  count($array2);
+            for($num_l=0;$num_l<$c_ar;$num_l++){
+                echo $array2[$num_l].'<br>';
+            }
             
         ?>
     </body>
